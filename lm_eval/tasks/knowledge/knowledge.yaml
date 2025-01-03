@@ -2,7 +2,7 @@ task: knowledge
 dataset_path: json
 dataset_name: null
 dataset_kwargs: 
-  data_files: lm_eval/tasks/arxivqa/member_qa.json
+  data_files: member_qa.json
 output_type: multiple_choice
 training_split: train
 validation_split: train

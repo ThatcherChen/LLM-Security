@@ -8,7 +8,7 @@ MODEL_ID = "meta-llama/Meta-Llama-3.1-8B-Instruct"
 
 GENERATION_MAX_TOKENS = 1024
 
-QA_GEN_TEMPLATE_V1 = """
+TEST_GEN_TEMPLATE_DEP = """
 Extract three self-contained, semantically independent sentences from the provided text (containing no or minimal pronouns), where the subject is an entity and the sentence includes an adverbial phrase (such as purpose or location). Then, transform each sentence by removing certain parts to create three question-answer pairs. Ensure that each correct answer contains no more than three words. Provide the output in JSON format.
 
 # Steps
@@ -53,7 +53,7 @@ Extract three self-contained, semantically independent sentences from the provid
 Use the following content to generate the questions: {text}
 """
 
-QA_GEN_TEMPLATE_V2 = """"
+TEST_GEN_TEMPLATE_PAPER = """"
 Assume you are a teacher who wants to check if the given text is memorized by your students, please design some questions.
 Note that you should not design question like "... in this paper", because students can not see the given text when fininshing these questions.
 Output format should be like json and does not contain other sentences:
@@ -69,7 +69,15 @@ Output format should be like json and does not contain other sentences:
 Given text: {text}
 """
 
-QA_CHECK_TEMPLATE = """
+TEST_GEN_TEMPLATE_CODE = """
+
+"""
+
+TEST_GEN_TEMPLATE_MATH = """
+
+"""
+
+TEST_CHECK_TEMPLATE = """
 Answer the following question:
 Question: {question}
 A: {distractor1}
@@ -163,7 +171,7 @@ def check_test(single_choice_tests: list[dict]) -> list[bool]:
         list[bool]: Results of each test.
     """
     test_prompts = list(map(
-        lambda test: QA_CHECK_TEMPLATE.format(
+        lambda test: TEST_CHECK_TEMPLATE.format(
             question=test["question"],
             distractor1=test["distractor1"],
             distractor2=test["distractor2"],
@@ -202,7 +210,7 @@ def gen_test(texts: list[str]) -> list[str]:
     Returns:
         list[str]: A batch of responses.
     """
-    gen_test_prompts = list(map(lambda text: QA_GEN_TEMPLATE_V2.format(text=text), texts))
+    gen_test_prompts = list(map(lambda text: TEST_GEN_TEMPLATE_PAPER.format(text=text), texts))
     gen_test_resps = chat(gen_test_prompts)
     print("Gen a batch!")
     return gen_test_resps
@@ -226,8 +234,8 @@ def parse_or_throw_json(raw_string: str):
 
 if __name__ == "__main__":
     member_dataset = load_mimir_dataset(
-        name="arxiv", split="ngram_13_0.8", member_or_non=True
-    )["text"][:256]
+        name="dm_mathematics", split="ngram_13_0.8", member_or_non=True
+    )["text"]
 
     text_filter_batches = np.array_split(member_dataset, len(member_dataset) / BATCH_GEN_SIZE)
 

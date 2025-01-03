@@ -1,0 +1,996 @@
+[
+    {
+        "question": "How can you contribute to VLC-Qt?",
+        "distractor1": "By sending a pull request via e-mail",
+        "distractor2": "By opening an issue on the library's website",
+        "distractor3": "By submitting a feature request via GitHub",
+        "correct_answer": "By writing new features by yourself and submitting a pull request"
+    },
+    {
+        "question": "Where should you not send feature requests and bug reports?",
+        "distractor1": "Via GitHub issues",
+        "distractor2": "Via e-mail",
+        "distractor3": "Via the VLC-Qt website",
+        "correct_answer": "Via e-mail"
+    },
+    {
+        "question": "What information should you include when reporting a bug in VLC-Qt?",
+        "distractor1": "Only the bug description",
+        "distractor2": "Your operating system and VLC-Qt version",
+        "distractor3": "Sample code, build output, and relevant information",
+        "correct_answer": "Sample code, build output, and relevant information"
+    },
+    {
+        "question": "What will happen to an issue if it is not replied to for a month or longer?",
+        "distractor1": "It will be reopened",
+        "distractor2": "It will be closed",
+        "distractor3": "It will be ignored",
+        "correct_answer": "It will be closed"
+    },
+    {
+        "question": "Where can you write guides for VLC-Qt?",
+        "distractor1": "On the VLC-Qt website",
+        "distractor2": "On GitHub",
+        "distractor3": "On discuss.tano.si",
+        "correct_answer": "On discuss.tano.si"
+    },
+    {
+        "question": "How can you submit a pull request to VLC-Qt?",
+        "distractor1": "Via e-mail",
+        "distractor2": "Via GitHub issues",
+        "distractor3": "By opening an issue on the library's website",
+        "correct_answer": "By writing new features by yourself and submitting a pull request"
+    },
+    {
+        "question": "What is the name of the license used by the software?",
+        "distractor1": "MIT License",
+        "distractor2": "Apache License, Version 2.0",
+        "distractor3": "GPL License",
+        "correct_answer": "Apache License, Version 2.0"
+    },
+    {
+        "question": "What is the purpose of the DataAndSwitchMap class?",
+        "distractor1": "To handle HTTP requests",
+        "distractor2": "To map data and switch information",
+        "distractor3": "To handle database connections",
+        "correct_answer": "To map data and switch information"
+    },
+    {
+        "question": "What is the type of the $criteriaSetType property in the DataAndSwitchMap class?",
+        "distractor1": "array",
+        "distractor2": "string",
+        "distractor3": "integer",
+        "correct_answer": "string"
+    },
+    {
+        "question": "What is the type of the $criteriaDetails property in the DataAndSwitchMap class?",
+        "distractor1": "array",
+        "distractor2": "CriteriaDetails[]",
+        "distractor3": "string",
+        "correct_answer": "CriteriaDetails[]"
+    },
+    {
+        "question": "What is the type of the $type parameter in the DataAndSwitchMap constructor?",
+        "distractor1": "string",
+        "distractor2": "array",
+        "distractor3": "integer",
+        "correct_answer": "string"
+    },
+    {
+        "question": "What is the type of the $listOfData parameter in the DataAndSwitchMap constructor?",
+        "distractor1": "DataOrSwitch[]",
+        "distractor2": "string",
+        "distractor3": "array",
+        "correct_answer": "DataOrSwitch[]"
+    },
+    {
+        "question": "What was the issue that the 2016-09-14 update worked around?",
+        "distractor1": "A bug in the Firebase project",
+        "distractor2": "A keychain issue in iOS 10",
+        "distractor3": "A crash caused by NSURLSession",
+        "correct_answer": "A keychain issue in iOS 10 simulator"
+    },
+    {
+        "question": "What type of error was reported for an invalid email address in the 2016-09-14 update?",
+        "distractor1": "A crash error",
+        "distractor2": "A password error",
+        "distractor3": "The correct error",
+        "correct_answer": "The correct error"
+    },
+    {
+        "question": "What type of bug was fixed in the 2016-07-18 update?",
+        "distractor1": "A race condition bug",
+        "distractor2": "A keychain issue bug",
+        "distractor3": "An exception bug",
+        "correct_answer": "A race condition bug"
+    },
+    {
+        "question": "What was improved in the 2016-06-20 update?",
+        "distractor1": "Error handling and messages",
+        "distractor2": "Keychain security",
+        "distractor3": "User anonymity",
+        "correct_answer": "Error handling and messages"
+    },
+    {
+        "question": "What was siloed between different Firebase projects in the 2016-06-20 update?",
+        "distractor1": "User data",
+        "distractor2": "Error messages",
+        "distractor3": "A saved signed in user",
+        "correct_answer": "A saved signed in user"
+    },
+    {
+        "question": "What was the release date of the initial public release?",
+        "distractor1": "2016-05-18",
+        "distractor2": "2016-09-14",
+        "distractor3": "2016-06-20",
+        "correct_answer": "2016-05-18"
+    },
+    {
+        "question": "What is the purpose of documenting breaking changes in Electron?",
+        "distractor1": "To inform users about new features",
+        "distractor2": "To notify users about deprecated APIs",
+        "distractor3": "To warn users about changes that may break their code",
+        "correct_answer": "To warn users about changes that may break their code"
+    },
+    {
+        "question": "What type of breaking change occurs when an API is changed in such a way that code that has not been updated is guaranteed to throw an exception?",
+        "distractor1": "Behavior Changed",
+        "distractor2": "Default Changed",
+        "distractor3": "API Changed",
+        "correct_answer": "API Changed"
+    },
+    {
+        "question": "What is the consequence of an API being marked as deprecated?",
+        "distractor1": "It will be removed in a future release",
+        "distractor2": "It will continue to function but emit a deprecation warning",
+        "distractor3": "It will throw an exception",
+        "correct_answer": "It will continue to function but emit a deprecation warning"
+    },
+    {
+        "question": "What is the default value of `contextIsolation` in Electron 12?",
+        "distractor1": "false",
+        "distractor2": "true",
+        "distractor3": "It depends on the user's preference",
+        "correct_answer": "true"
+    },
+    {
+        "question": "Why is it recommended to have `contextIsolation` enabled in Electron?",
+        "distractor1": "To improve performance",
+        "distractor2": "To enhance security",
+        "distractor3": "To simplify the code",
+        "correct_answer": "To enhance security"
+    },
+    {
+        "question": "What is the purpose of the script?",
+        "distractor1": "To calculate the area of a rectangle",
+        "distractor2": "To draw a cube on the screen",
+        "distractor3": "To play a game",
+        "correct_answer": "To draw a cube on the screen"
+    },
+    {
+        "question": "What library is used for graphics in this script?",
+        "distractor1": "Pygame",
+        "distractor2": "OpenGL",
+        "distractor3": "Matplotlib",
+        "correct_answer": "OpenGL"
+    },
+    {
+        "question": "What is the name of the function that handles exceptions?",
+        "distractor1": "try",
+        "distractor2": "except",
+        "distractor3": "SystemExit",
+        "correct_answer": "SystemExit"
+    },
+    {
+        "question": "What is the data structure used to represent a colored cube?",
+        "distractor1": "List",
+        "distractor2": "Tuple",
+        "distractor3": "Dictionary",
+        "correct_answer": "Tuple"
+    },
+    {
+        "question": "What is the name of the variable that stores the points of the cube?",
+        "distractor1": "CUBE_POINTS",
+        "distractor2": "CUBE_COLORS",
+        "distractor3": "CUBE_QUAD_VERTS",
+        "correct_answer": "CUBE_POINTS"
+    },
+    {
+        "question": "What is the type of values used for colors in the script?",
+        "distractor1": "Integer",
+        "distractor2": "Floating point",
+        "distractor3": "String",
+        "correct_answer": "Floating point"
+    },
+    {
+        "question": "What is the purpose of the `invert` function?",
+        "distractor1": "It is used to check objects for own properties.",
+        "distractor2": "It is used to create an object composed of the inverted keys and values of `object`.",
+        "distractor3": "It is used to require internal modules.",
+        "correct_answer": "It is used to create an object composed of the inverted keys and values of `object`."
+    },
+    {
+        "question": "What happens when `multiVal` is `true` and a key already exists in the result object?",
+        "distractor1": "The key is overwritten by the new value.",
+        "distractor2": "The new value is pushed to an array of existing keys.",
+        "distractor3": "The function returns an empty object.",
+        "correct_answer": "The new value is pushed to an array of existing keys."
+    },
+    {
+        "question": "What is the purpose of the `arrayReduce` function?",
+        "distractor1": "It is used to check objects for own properties.",
+        "distractor2": "It is used to require internal modules.",
+        "distractor3": "It is used to reduce an array to a single value.",
+        "correct_answer": "It is used to reduce an array to a single value."
+    },
+    {
+        "question": "What is the initial value of the `result` object in the `invert` function?",
+        "distractor1": "{}",
+        "distractor2": "[]",
+        "distractor3": "null",
+        "correct_answer": "{}"
+    },
+    {
+        "question": "What is the effect of the `guard` parameter in the `invert` function?",
+        "distractor1": "It allows multiple values per key.",
+        "distractor2": "It enables use as an iteratee for functions like `_.map`.",
+        "distractor3": "It disables the function.",
+        "correct_answer": "It enables use as an iteratee for functions like `_.map`."
+    },
+    {
+        "question": "What is the purpose of the function described in the given text?",
+        "distractor1": "It is used to insert a new element at the end of the linked list.",
+        "distractor2": "It is used to delete the first element from the linked list.",
+        "distractor3": "It is used to print each element in the linked list.",
+        "correct_answer": "It is used to print each element in the linked list."
+    },
+    {
+        "question": "What is the data structure being used in the given text?",
+        "distractor1": "Array",
+        "distractor2": "Stack",
+        "distractor3": "Hash-based linked list",
+        "correct_answer": "Hash-based linked list"
+    },
+    {
+        "question": "What happens when the head of the linked list is updated to point to itself?",
+        "distractor1": "The linked list becomes empty.",
+        "distractor2": "The linked list remains the same.",
+        "distractor3": "The linked list becomes infinite.",
+        "correct_answer": "The linked list becomes infinite."
+    },
+    {
+        "question": "What is the output of the function when the head is {:data => 4, :next => head}?",
+        "distractor1": "4\n3\n2\n1",
+        "distractor2": "5\n4\n3\n2\n1",
+        "distractor3": "6\n5\n4\n3\n2\n1",
+        "correct_answer": "4\n3\n2\n1"
+    },
+    {
+        "question": "What is gprMax used for?",
+        "distractor1": "It is a programming language.",
+        "distractor2": "It is a game development software.",
+        "distractor3": "It is an electromagnetic wave simulation software.",
+        "correct_answer": "It is an electromagnetic wave simulation software."
+    },
+    {
+        "question": "Why does gprMax not have a graphical user interface (GUI)?",
+        "distractor1": "Because the developers were not skilled enough.",
+        "distractor2": "Because a GUI is not useful for complex simulations.",
+        "distractor3": "Because the developers wanted to focus on other features.",
+        "correct_answer": "Because the developers wanted to focus on other features."
+    },
+    {
+        "question": "What is the license of gprMax?",
+        "distractor1": "It is a proprietary license.",
+        "distractor2": "It is a free and open-source license.",
+        "distractor3": "It is a paid license.",
+        "correct_answer": "It is a free and open-source license."
+    },
+    {
+        "question": "What is the purpose of the AssemblyTitle attribute in an assembly?",
+        "distractor1": "To specify the assembly's version information",
+        "distractor2": "To provide a copyright notice for the assembly",
+        "distractor3": "To specify the assembly's title",
+        "correct_answer": "To specify the assembly's title"
+    },
+    {
+        "question": "What does the ComVisible attribute do in an assembly?",
+        "distractor1": "It specifies the assembly's version information",
+        "distractor2": "It makes the assembly visible to COM components",
+        "distractor3": "It provides a copyright notice for the assembly",
+        "correct_answer": "It makes the assembly visible to COM components"
+    },
+    {
+        "question": "What is the default behavior of the AssemblyVersion attribute when '*' is used?",
+        "distractor1": "It defaults the Build and Revision Numbers to 0",
+        "distractor2": "It defaults the Build and Revision Numbers to the current date and time",
+        "distractor3": "It defaults the Build and Revision Numbers to the current system time",
+        "correct_answer": "It defaults the Build and Revision Numbers to the current date and time"
+    },
+    {
+        "question": "What is the purpose of the AssemblyCopyright attribute in an assembly?",
+        "distractor1": "To specify the assembly's title",
+        "distractor2": "To provide a copyright notice for the assembly",
+        "distractor3": "To specify the assembly's version information",
+        "correct_answer": "To provide a copyright notice for the assembly"
+    },
+    {
+        "question": "What is the AssemblyVersion attribute used for?",
+        "distractor1": "To specify the assembly's title",
+        "distractor2": "To provide a copyright notice for the assembly",
+        "distractor3": "To specify the assembly's version information",
+        "correct_answer": "To specify the assembly's version information"
+    },
+    {
+        "question": "What is the main purpose of the function getSubstringAfterChar?",
+        "distractor1": "To get the substring before a certain character",
+        "distractor2": "To get the substring after a certain character",
+        "distractor3": "To transform a string to Kebab case",
+        "correct_answer": "To get the substring after a certain character"
+    },
+    {
+        "question": "How does the function getSubstringBeforeChar find the substring before a certain character?",
+        "distractor1": "Using the char parameter as the starting point",
+        "distractor2": "Using the indexOf method to find the index of the char parameter",
+        "distractor3": "Using a regular expression to find the substring",
+        "correct_answer": "Using the indexOf method to find the index of the char parameter"
+    },
+    {
+        "question": "What is the purpose of the regular expression in the function kebabify?",
+        "distractor1": "To find the index of the first uppercase letter",
+        "distractor2": "To match and extract words in a string",
+        "distractor3": "To replace all lowercase letters with uppercase letters",
+        "correct_answer": "To match and extract words in a string"
+    },
+    {
+        "question": "How does the function camelize transform a kebab-case string?",
+        "distractor1": "By replacing all hyphens with spaces",
+        "distractor2": "By replacing all hyphens with uppercase letters",
+        "distractor3": "By replacing all hyphens with lowercase letters and then capitalizing the first letter of each word",
+        "correct_answer": "By replacing all hyphens with uppercase letters"
+    },
+    {
+        "question": "What is the return value of the function getSubstringAfterChar if the string does not contain the char parameter?",
+        "distractor1": "An empty string",
+        "distractor2": "The original string",
+        "distractor3": "null",
+        "correct_answer": "The original string"
+    },
+    {
+        "question": "What type of field should be represented as an integer field in the database?",
+        "distractor1": "String",
+        "distractor2": "Date",
+        "distractor3": "Time",
+        "correct_answer": "Integer"
+    },
+    {
+        "question": "What should be used in the database field to represent a boolean value?",
+        "distractor1": "1.0",
+        "distractor2": "yes",
+        "distractor3": "True",
+        "correct_answer": "1s and 0s"
+    },
+    {
+        "question": "What will an admin user be presented with in the edit form for a boolean field?",
+        "distractor1": "A dropdown menu",
+        "distractor2": "A checkbox",
+        "distractor3": "A text field",
+        "correct_answer": "A checkbox"
+    },
+    {
+        "question": "What option is available when using a boolean field as a filter?",
+        "distractor1": "True or False",
+        "distractor2": "All or None",
+        "distractor3": "Yes or No",
+        "correct_answer": "True, False, or All"
+    },
+    {
+        "question": "What is the purpose of the'match' function in the given code?",
+        "distractor1": "To create a new node in the matchers tree",
+        "distractor2": "To perform a depth-first search on the matchers tree",
+        "distractor3": "To check if a byte slice has a specific mime type",
+        "correct_answer": "To perform a depth-first search on the matchers tree"
+    },
+    {
+        "question": "What does the'mime' field represent in the 'node' struct?",
+        "distractor1": "The extension of a file",
+        "distractor2": "The function to check if a byte slice has a specific mime type",
+        "distractor3": "The mime type of a file",
+        "correct_answer": "The mime type of a file"
+    },
+    {
+        "question": "What is the purpose of the 'newNode' function?",
+        "distractor1": "To perform a depth-first search on the matchers tree",
+        "distractor2": "To check if a byte slice has a specific mime type",
+        "distractor3": "To create a new node in the matchers tree",
+        "correct_answer": "To create a new node in the matchers tree"
+    },
+    {
+        "question": "What is the result of calling the'match' function on a node that has no children?",
+        "distractor1": "The deepest successful matcher for which all the children fail",
+        "distractor2": "The original input byte slice",
+        "distractor3": "A new node with the same mime type",
+        "correct_answer": "The original input byte slice"
+    },
+    {
+        "question": "What is the purpose of the 'flatten' function?",
+        "distractor1": "To create a new node in the matchers tree",
+        "distractor2": "To perform a depth-first search on the matchers tree",
+        "distractor3": "To convert a node and its children into a slice of nodes",
+        "correct_answer": "To convert a node and its children into a slice of nodes"
+    },
+    {
+        "question": "What is the purpose of the @PublicApi annotation in the given Java class?",
+        "distractor1": "It is used to mark a method as deprecated.",
+        "distractor2": "It is used to indicate that a class is not intended for public use.",
+        "distractor3": "It is used to mark a class as a test class.",
+        "correct_answer": "It is used to indicate that a class is part of the public API."
+    },
+    {
+        "question": "What is the relationship between the NodeCommitQueryResult class and the Builder class?",
+        "distractor1": "The Builder class is a subclass of NodeCommitQueryResult.",
+        "distractor2": "The Builder class is a static inner class of NodeCommitQueryResult.",
+        "distractor3": "The Builder class is a separate class that is not related to NodeCommitQueryResult.",
+        "correct_answer": "The Builder class is a static inner class of NodeCommitQueryResult."
+    },
+    {
+        "question": "What is the purpose of the 'empty' method in the NodeCommitQueryResult class?",
+        "distractor1": "It is used to create a new instance of NodeCommitQueryResult with default values.",
+        "distractor2": "It is used to create a new instance of NodeCommitQueryResult with specified values.",
+        "distractor3": "It is used to create a new instance of NodeCommitQueryResult with a specified totalHits value.",
+        "correct_answer": "It is used to create a new instance of NodeCommitQueryResult with a specified totalHits value."
+    },
+    {
+        "question": "What is the purpose of the 'create' method in the NodeCommitQueryResult class?",
+        "distractor1": "It is used to create a new instance of NodeCommitQueryResult with default values.",
+        "distractor2": "It is used to create a new instance of NodeCommitQueryResult with specified values.",
+        "distractor3": "It is used to create a new instance of the Builder class.",
+        "correct_answer": "It is used to create a new instance of the Builder class."
+    },
+    {
+        "question": "What is the purpose of the 'getTotalHits' method in the NodeCommitQueryResult class?",
+        "distractor1": "It is used to set the total hits value.",
+        "distractor2": "It is used to get the total hits value.",
+        "distractor3": "It is used to set the from value.",
+        "correct_answer": "It is used to get the total hits value."
+    },
+    {
+        "question": "What is the purpose of the 'getHits' method in the NodeCommitQueryResult class?",
+        "distractor1": "It is used to set the hits value.",
+        "distractor2": "It is used to get the hits value.",
+        "distractor3": "It is used to set the total hits value.",
+        "correct_answer": "It is used to get the hits value."
+    },
+    {
+        "question": "What is the purpose of the 'getFrom' method in the NodeCommitQueryResult class?",
+        "distractor1": "It is used to set the from value.",
+        "distractor2": "It is used to get the from value.",
+        "distractor3": "It is used to set the hits value.",
+        "correct_answer": "It is used to get the from value."
+    },
+    {
+        "question": "What is the purpose of the 'getSize' method in the NodeCommitQueryResult class?",
+        "distractor1": "It is used to set the size value.",
+        "distractor2": "It is used to get the size value.",
+        "distractor3": "It is used to set the total hits value.",
+        "correct_answer": "It is used to get the size value."
+    },
+    {
+        "question": "What is the purpose of the UI entries that start with 'FUNCTIONAL_'?",
+        "distractor1": "To control the game's physics engine",
+        "distractor2": "To minimize potential conflict with stringtable tags",
+        "distractor3": "To create new game levels",
+        "correct_answer": "To minimize potential conflict with stringtable tags"
+    },
+    {
+        "question": "What is the FUNCTIONAL_GROWTH_SPECIALS_LIST used for?",
+        "distractor1": "To log game progress",
+        "distractor2": "To control the game's difficulty level",
+        "distractor3": "To control the 'HasGrowthSpecial' condition in the ObjectListWnd",
+        "correct_answer": "To control the 'HasGrowthSpecial' condition in the ObjectListWnd"
+    },
+    {
+        "question": "What is the FUNCTIONAL_HULL_DESC_TAGS_LIST used for?",
+        "distractor1": "To display the game's high score",
+        "distractor2": "To show the player's progress in the game",
+        "distractor3": "To define which hull tags on HULLs are shown in the hull description",
+        "correct_answer": "To define which hull tags on HULLs are shown in the hull description"
+    },
+    {
+        "question": "What should all keys in the UI entries start with to minimize potential conflict with stringtable tags?",
+        "distractor1": "GAME_",
+        "distractor2": "FUNCTIONAL_",
+        "distractor3": "UI_",
+        "correct_answer": "FUNCTIONAL_"
+    },
+    {
+        "question": "What is the purpose of the addressparser module?",
+        "distractor1": "It is used for parsing e-mail address fields",
+        "distractor2": "It is used for parsing phone number fields",
+        "distractor3": "It is used for parsing date fields",
+        "correct_answer": "It is used for parsing e-mail address fields"
+    },
+    {
+        "question": "What type of input can be passed to the addressparser function?",
+        "distractor1": "Only a single address",
+        "distractor2": "Only a comma separated list of addresses",
+        "distractor3": "A single address, a formatted address, a comma separated list of addresses, an address group, or a mix of all the formats",
+        "correct_answer": "A single address, a formatted address, a comma separated list of addresses, an address group, or a mix of all the formats"
+    },
+    {
+        "question": "What is the difference between a comma and a semicolon when used as a list delimiter?",
+        "distractor1": "A comma is used for a single address, while a semicolon is used for a group of addresses",
+        "distractor2": "A semicolon is treated as the list delimiter as well (except when used in the group syntax)",
+        "distractor3": "A semicolon is used for a single address, while a comma is used for a group of addresses",
+        "correct_answer": "A semicolon is treated as the list delimiter as well (except when used in the group syntax)"
+    },
+    {
+        "question": "How do you install the addressparser module?",
+        "distractor1": "Using pip",
+        "distractor2": "Using npm",
+        "distractor3": "Using yarn",
+        "correct_answer": "Using npm"
+    },
+    {
+        "question": "What is the result of calling addressparser('andris <andris@tr.ee>')?",
+        "distractor1": "[{name: 'andris', address: 'andris@tr.ee'}]",
+        "distractor2": "[{name: 'andris', address: 'andris@tr.ee'}, {name: 'tr.ee', address: 'andris@tr.ee'}]",
+        "distractor3": "[{name: 'andris', address: 'andris@tr.ee'}]",
+        "correct_answer": "[{name: 'andris', address: 'andris@tr.ee'}]"
+    },
+    {
+        "question": "What is the result of calling addressparser('Composers:\"Bach, Sebastian\" <sebu@example.com>, mozart@example.com (Mozzie);')?",
+        "distractor1": "[{name: 'Composers', group: [{name: 'Bach, Sebastian', address:'sebu@example.com'}, {name: 'Mozzie', address:'mozart@example.com'}]}]",
+        "distractor2": "[{name: 'Composers', group: [{name: 'Bach, Sebastian', address:'sebu@example.com'}, {name: 'Mozzie', address:'mozart@example.com'}]}, {name:'sebu@example.com', address:'sebu@example.com'}]",
+        "distractor3": "[{name: 'Composers', group: [{name: 'Bach, Sebastian', address:'sebu@example.com'}, {name: 'Mozzie', address:'mozart@example.com'}]}]",
+        "correct_answer": "[{name: 'Composers', group: [{name: 'Bach, Sebastian', address:'sebu@example.com'}, {name: 'Mozzie', address:'mozart@example.com'}]}]"
+    },
+    {
+        "question": "What is the name of the sample application that allows citizens to report incidents?",
+        "distractor1": "City Power & Light",
+        "distractor2": "Azure Storage",
+        "distractor3": "NodeJS",
+        "correct_answer": "City Power & Light"
+    },
+    {
+        "question": "Which component of the application contains the user interface and business logic?",
+        "distractor1": "WebAPI",
+        "distractor2": "CosmosDB",
+        "distractor3": "Front end web application",
+        "correct_answer": "Front end web application"
+    },
+    {
+        "question": "What is the purpose of the lab?",
+        "distractor1": "To implement the application from scratch",
+        "distractor2": "To configure additional Azure features",
+        "distractor3": "To connect the web application front end to the existing API",
+        "correct_answer": "To connect the web application front end to the existing API"
+    },
+    {
+        "question": "Which editor is recommended for editing in this lab?",
+        "distractor1": "Visual Studio",
+        "distractor2": "Visual Studio Code",
+        "distractor3": "Node.js Tools for Visual Studio Extension",
+        "correct_answer": "Visual Studio Code"
+    },
+    {
+        "question": "What is the name of the extension used with Visual Studio for Node.js development?",
+        "distractor1": "Node.js Tools for Visual Studio Extension",
+        "distractor2": "NTVS",
+        "distractor3": "Node.js Tools",
+        "correct_answer": "Node.js Tools for Visual Studio Extension"
+    },
+    {
+        "question": "What is the type of the 'options' parameter in the valueProcessor function?",
+        "distractor1": "Object",
+        "distractor2": "Array",
+        "distractor3": "String",
+        "correct_answer": "Object"
+    },
+    {
+        "question": "What is the purpose of the 'valueProcessor' function?",
+        "distractor1": "To process CSS declaration values",
+        "distractor2": "To process JavaScript code",
+        "distractor3": "To process HTML elements",
+        "correct_answer": "To process CSS declaration values"
+    },
+    {
+        "question": "What is the 'URL_STATEMENT_REGEX' used for?",
+        "distractor1": "To match CSS selectors",
+        "distractor2": "To match CSS properties",
+        "distractor3": "To match url() statements in CSS",
+        "correct_answer": "To match url() statements in CSS"
+    },
+    {
+        "question": "What is the 'getPathsAtChar' function used for?",
+        "distractor1": "To get the absolute path of a file",
+        "distractor2": "To get the relative path of a file",
+        "distractor3": "To get a list of possible absolute path strings at a given character offset",
+        "correct_answer": "To get a list of possible absolute path strings at a given character offset"
+    },
+    {
+        "question": "What is the 'initialise' function used for?",
+        "distractor1": "To split a string into an array",
+        "distractor2": "To join an array into a string",
+        "distractor3": "To ensure all capture group tokens are a valid string",
+        "correct_answer": "To ensure all capture group tokens are a valid string"
+    },
+    {
+        "question": "What is the main purpose of the easywsclient library?",
+        "distractor1": "To provide a complex WebSocket implementation",
+        "distractor2": "To help a C++ project start using WebSocket rapidly",
+        "distractor3": "To impose special interface requirements",
+        "correct_answer": "To help a C++ project start using WebSocket rapidly"
+    },
+    {
+        "question": "What is special about the version 13 of WebSocket supported by easywsclient?",
+        "distractor1": "It's the oldest version",
+        "distractor2": "It's compatible with all major, modern WebSocket implementations",
+        "distractor3": "It's not compatible with Node.js",
+        "correct_answer": "It's compatible with all major, modern WebSocket implementations"
+    },
+    {
+        "question": "What makes easywsclient a good choice for a project?",
+        "distractor1": "It's very complex",
+        "distractor2": "It's very simple and cruft-free",
+        "distractor3": "It imposes special interface requirements",
+        "correct_answer": "It's very simple and cruft-free"
+    },
+    {
+        "question": "What is one benefit of using easywsclient?",
+        "distractor1": "It can only be used with older C++ projects",
+        "distractor2": "It can serve as a concise reference for alternative implementations",
+        "distractor3": "It's not compatible with Node.js",
+        "correct_answer": "It can serve as a concise reference for alternative implementations"
+    },
+    {
+        "question": "What is the advantage of using easywsclient in a project with complicated builds?",
+        "distractor1": "You can't use it",
+        "distractor2": "You have to impose special interface requirements",
+        "distractor3": "You can piggy-back the.cpp file into an existing file",
+        "correct_answer": "You can piggy-back the.cpp file into an existing file"
+    },
+    {
+        "question": "What is the purpose of the module described in the file?",
+        "distractor1": "It is used to store hook_advagg_* hooks.",
+        "distractor2": "It is a CSS/JS aggregation module.",
+        "distractor3": "It is used to add in a.gz file if none exists.",
+        "correct_answer": "It is an Advanced CSS/JS aggregation module."
+    },
+    {
+        "question": "What is the function of the hook_advagg_save_aggregate_alter()?",
+        "distractor1": "It is used to add in a.gz file if none exists.",
+        "distractor2": "It is used to compress files.",
+        "distractor3": "It is used to store hook_advagg_* hooks.",
+        "correct_answer": "It is used to alter the aggregation process."
+    },
+    {
+        "question": "What condition must be met for the function to compress a file?",
+        "distractor1": "The file must be a.gz file.",
+        "distractor2": "The file must not be a.gz file.",
+        "distractor3": "Gzip must be disabled.",
+        "correct_answer": "Gzip must be enabled."
+    },
+    {
+        "question": "What is the result of the function if a.gz file already exists?",
+        "distractor1": "It compresses the file.",
+        "distractor2": "It adds the file to the $files_to_save array.",
+        "distractor3": "It exits the loop.",
+        "correct_answer": "It exits the loop."
+    },
+    {
+        "question": "What is the method used to compress the file?",
+        "distractor1": "gzcompress",
+        "distractor2": "gzencode",
+        "distractor3": "gzdecode",
+        "correct_answer": "gzencode"
+    },
+    {
+        "question": "What is KnightOS?",
+        "distractor1": "A programming language for TI calculators",
+        "distractor2": "A third-party operating system for TI calculators",
+        "distractor3": "A calculator emulator",
+        "correct_answer": "A third-party operating system for TI calculators"
+    },
+    {
+        "question": "What is the name of the kernel that KnightOS is built on top of?",
+        "distractor1": "Linux",
+        "distractor2": "The KnightOS kernel",
+        "distractor3": "Windows",
+        "correct_answer": "The KnightOS kernel"
+    },
+    {
+        "question": "What is the name of the repository where all the pieces of KnightOS are maintained?",
+        "distractor1": "GitHub",
+        "distractor2": "KnightOS repository",
+        "distractor3": "KnightOS organization",
+        "correct_answer": "KnightOS organization"
+    },
+    {
+        "question": "What is the name of the file that lists the packages that are installed on the default userspace?",
+        "distractor1": "package.config",
+        "distractor2": "default.config",
+        "distractor3": "userspace.config",
+        "correct_answer": "package.config"
+    },
+    {
+        "question": "What is the name of the tool used to install packages on KnightOS?",
+        "distractor1": "knightos init",
+        "distractor2": "mktiupgrade",
+        "distractor3": "KnightOS SDK",
+        "correct_answer": "KnightOS SDK"
+    },
+    {
+        "question": "What command is used to compile KnightOS?",
+        "distractor1": "knightos compile",
+        "distractor2": "knightos init",
+        "distractor3": "knightos init --platform=<platform>",
+        "correct_answer": "knightos init --platform=<platform>"
+    },
+    {
+        "question": "What is the main goal of the contributor code of conduct?",
+        "distractor1": "To increase the number of contributors",
+        "distractor2": "To make participation in the project a harassment-free experience",
+        "distractor3": "To improve the project's documentation",
+        "correct_answer": "To make participation in the project a harassment-free experience"
+    },
+    {
+        "question": "What type of behavior is considered unacceptable by participants?",
+        "distractor1": "Using technical jargon",
+        "distractor2": "Using sexual language or imagery, derogatory comments or personal attacks, trolling, public or private harassment, insults, or other unprofessional conduct",
+        "distractor3": "Asking for help",
+        "correct_answer": "Using sexual language or imagery, derogatory comments or personal attacks, trolling, public or private harassment, insults, or other unprofessional conduct"
+    },
+    {
+        "question": "What can project maintainers do to contributors who do not follow the code of conduct?",
+        "distractor1": "They can ignore the behavior",
+        "distractor2": "They can remove, edit, or reject comments, commits, code, wiki edits, issues, and other contributions",
+        "distractor3": "They can add new contributors",
+        "correct_answer": "They can remove, edit, or reject comments, commits, code, wiki edits, issues, and other contributions"
+    },
+    {
+        "question": "What is the source of the contributor code of conduct?",
+        "distractor1": "The project's internal policies",
+        "distractor2": "The Contributor Covenant (http://contributor-covenant.org)",
+        "distractor3": "The project's documentation",
+        "correct_answer": "The Contributor Covenant (http://contributor-covenant.org)"
+    },
+    {
+        "question": "What is the purpose of the SPTAppRemotePlaybackRestrictions protocol?",
+        "distractor1": "It describes a set of restrictions for playback in the Spotify client to determine whether to enable or disable certain actions in the UI.",
+        "distractor2": "It is used to determine whether to enable or disable playback in the Spotify client.",
+        "distractor3": "It is a set of restrictions for playback in the Spotify client.",
+        "correct_answer": "It describes a set of restrictions for playback in the Spotify client to determine whether to enable or disable certain actions in the UI."
+    },
+    {
+        "question": "What does the canSkipNext property indicate?",
+        "distractor1": "Whether the user can seek to specific positions.",
+        "distractor2": "Whether the user can repeat the current track.",
+        "distractor3": "Whether the user can skip to the next track.",
+        "correct_answer": "Whether the user can skip to the next track."
+    },
+    {
+        "question": "What is the purpose of the canRepeatTrack property?",
+        "distractor1": "It indicates whether the user can seek to specific positions.",
+        "distractor2": "It indicates whether the user can toggle shuffle.",
+        "distractor3": "It indicates whether the user can repeat the current track.",
+        "correct_answer": "It indicates whether the user can repeat the current track."
+    },
+    {
+        "question": "What does the canToggleShuffle property indicate?",
+        "distractor1": "Whether the user can repeat the current context.",
+        "distractor2": "Whether the user can seek to specific positions.",
+        "distractor3": "Whether the user can toggle shuffle.",
+        "correct_answer": "Whether the user can toggle shuffle."
+    },
+    {
+        "question": "What is the purpose of the canSeek property?",
+        "distractor1": "It indicates whether the user can repeat the current track.",
+        "distractor2": "It indicates whether the user can toggle shuffle.",
+        "distractor3": "It indicates whether the user can seek to specific positions.",
+        "correct_answer": "It indicates whether the user can seek to specific positions."
+    },
+    {
+        "question": "What is the recommended preamp value for parametric equalizers?",
+        "distractor1": "-6.0dB",
+        "distractor2": "0dB",
+        "distractor3": "6.8dB",
+        "correct_answer": "-6.8dB"
+    },
+    {
+        "question": "How many filters can be used independently in parametric equalizers?",
+        "distractor1": "1",
+        "distractor2": "5",
+        "distractor3": "10",
+        "correct_answer": "5"
+    },
+    {
+        "question": "What is the type of equalizer that requires setting gains manually?",
+        "distractor1": "Parametric",
+        "distractor2": "Graphic",
+        "distractor3": "Both",
+        "correct_answer": "Graphic"
+    },
+    {
+        "question": "What is the recommended preamp value for fixed band equalizers?",
+        "distractor1": "-6.8dB",
+        "distractor2": "-6.0dB",
+        "distractor3": "0dB",
+        "correct_answer": "-6.0dB"
+    },
+    {
+        "question": "How many columns are shown in the table for parametric equalizers?",
+        "distractor1": "3",
+        "distractor2": "4",
+        "distractor3": "5",
+        "correct_answer": "5"
+    },
+    {
+        "question": "What is the purpose of the'set' method in the Point class?",
+        "distractor1": "It is used to get the x and y coordinates of a point",
+        "distractor2": "It is used to create a new Point object",
+        "distractor3": "It is used to set the x and y coordinates of a point",
+        "correct_answer": "It is used to set the x and y coordinates of a point"
+    },
+    {
+        "question": "How does the'set' method handle an empty array?",
+        "distractor1": "It throws an exception",
+        "distractor2": "It sets both x and y to the first element of the array",
+        "distractor3": "It sets both x and y to 0",
+        "correct_answer": "It sets both x and y to 0"
+    },
+    {
+        "question": "What does the 'clone' method return?",
+        "distractor1": "A new Point object with the same x and y coordinates",
+        "distractor2": "A new Point object with the same x coordinate and a y coordinate of 0",
+        "distractor3": "A copy of the original Point object",
+        "correct_answer": "A new Point object with the same x and y coordinates"
+    },
+    {
+        "question": "How does the 'hashCode' method handle floating-point numbers?",
+        "distractor1": "It converts them to integers by rounding down",
+        "distractor2": "It converts them to integers by rounding up",
+        "distractor3": "It converts them to long integers using Double.doubleToLongBits",
+        "correct_answer": "It converts them to long integers using Double.doubleToLongBits"
+    },
+    {
+        "question": "What does the 'equals' method check?",
+        "distractor1": "If the object is an instance of Point",
+        "distractor2": "If the object is the same as the current object",
+        "distractor3": "If the object has the same x and y coordinates",
+        "correct_answer": "If the object is an instance of Point and has the same x and y coordinates"
+    },
+    {
+        "question": "What does the 'inside' method do?",
+        "distractor1": "It checks if a point is inside a rectangle",
+        "distractor2": "It checks if a rectangle is inside a point",
+        "distractor3": "It checks if a point is inside a circle",
+        "correct_answer": "It checks if a point is inside a rectangle"
+    },
+    {
+        "question": "How does the 'toString' method format the output?",
+        "distractor1": "It uses a comma followed by a semicolon",
+        "distractor2": "It uses a comma followed by a space",
+        "distractor3": "It uses a comma followed by a curly brace",
+        "correct_answer": "It uses a comma followed by a space"
+    },
+    {
+        "question": "What is the problem this code is trying to solve?",
+        "distractor1": "It's a sorting algorithm",
+        "distractor2": "It's a searching algorithm",
+        "distractor3": "It's a problem about finding all possible combinations of numbers",
+        "correct_answer": "It's a problem about finding all possible combinations of numbers"
+    },
+    {
+        "question": "What is the difficulty level of this problem?",
+        "distractor1": "Hard",
+        "distractor2": "Medium",
+        "distractor3": "Easy",
+        "correct_answer": "Easy"
+    },
+    {
+        "question": "What is the approach used to solve this problem?",
+        "distractor1": "BFS",
+        "distractor2": "DFS",
+        "distractor3": "Greedy",
+        "correct_answer": "DFS"
+    },
+    {
+        "question": "What is the purpose of the `combineRe` method?",
+        "distractor1": "To add elements to the result list",
+        "distractor2": "To remove elements from the result list",
+        "distractor3": "To recursively find all possible combinations of numbers",
+        "correct_answer": "To recursively find all possible combinations of numbers"
+    },
+    {
+        "question": "What is the condition to stop the recursion in the `combineRe` method?",
+        "distractor1": "When the current path has more than k elements",
+        "distractor2": "When the current path has less than k elements",
+        "distractor3": "When the current path has exactly k elements",
+        "correct_answer": "When the current path has exactly k elements"
+    },
+    {
+        "question": "A father's relationship with his children is described as what?",
+        "distractor1": "A father is responsible for his children's happiness.",
+        "distractor2": "A father should abandon his children.",
+        "distractor3": "A father's love is not important for his children's well-being.",
+        "correct_answer": "A father doesn't destroy his children."
+    },
+    {
+        "question": "According to Kirk, a little suffering can be good for which part of a person?",
+        "distractor1": "Their body",
+        "distractor2": "Their mind",
+        "distractor3": "Their heart",
+        "correct_answer": "Their soul"
+    },
+    {
+        "question": "According to Dr. Boyce, a person can either meet life head-on or do what?",
+        "distractor1": "Meet it with a smile",
+        "distractor2": "Meet it with fear",
+        "distractor3": "Turn their back on it and start to wither away",
+        "correct_answer": "Turn their back on it and start to wither away"
+    },
+    {
+        "question": "According to McCoy, a princess should not be afraid because of what?",
+        "distractor1": "A brave knight is not necessary to protect her.",
+        "distractor2": "A princess should always be afraid.",
+        "distractor3": "A brave knight to protect her",
+        "correct_answer": "A brave knight to protect her"
+    },
+    {
+        "question": "According to Kirk, a Vulcan can no sooner be disloyal than he can do what?",
+        "distractor1": "Exist without eating",
+        "distractor2": "Exist without drinking",
+        "distractor3": "Exist without breathing",
+        "correct_answer": "Exist without breathing"
+    },
+    {
+        "question": "According to Kirk, a woman should have what quality?",
+        "distractor1": "Anger",
+        "distractor2": "Jealousy",
+        "distractor3": "Compassion",
+        "correct_answer": "Compassion"
+    },
+    {
+        "question": "According to Kirk, actual war is described as what?",
+        "distractor1": "A very clean business",
+        "distractor2": "A very safe business",
+        "distractor3": "A very messy business",
+        "correct_answer": "A very messy business"
+    },
+    {
+        "question": "According to Kirk, having something may not be as pleasing as what?",
+        "distractor1": "Wanting something",
+        "distractor2": "Having nothing",
+        "distractor3": "Wanting nothing",
+        "correct_answer": "Wanting"
+    },
+    {
+        "question": "What is the purpose of this Unicode table?",
+        "distractor1": "It is used for encoding numbers",
+        "distractor2": "It is used for decoding messages",
+        "distractor3": "It is used for displaying special characters",
+        "correct_answer": "It is used for displaying special characters that are not available in the standard ASCII range"
+    },
+    {
+        "question": "What type of characters are being replaced by their non-accented versions?",
+        "distractor1": "Lowercase Greek characters",
+        "distractor2": "Accented Latin characters",
+        "distractor3": "Upper case Greek characters",
+        "correct_answer": "Accented Latin characters"
+    },
+    {
+        "question": "What is the name of the character table used as a reference for this Unicode table?",
+        "distractor1": "IBM CP 437",
+        "distractor2": "DEC VT",
+        "distractor3": "ISO 8859-1",
+        "correct_answer": "ISO 8859-1, DEC VT, and IBM CP 437 tables"
+    },
+    {
+        "question": "What is the purpose of the Unicode range 0x20-0x24?",
+        "distractor1": "To display special characters",
+        "distractor2": "To encode numbers",
+        "distractor3": "To act as substitutes for ASCII characters",
+        "correct_answer": "To act as substitutes for ASCII characters, especially the upper-case characters"
+    }
+]
